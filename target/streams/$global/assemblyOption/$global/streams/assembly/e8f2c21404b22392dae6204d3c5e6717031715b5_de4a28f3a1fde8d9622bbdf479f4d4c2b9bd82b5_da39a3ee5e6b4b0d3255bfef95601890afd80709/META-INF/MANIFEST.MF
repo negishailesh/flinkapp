@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Scala.js library
+Implementation-Version: 0.6.14
+Specification-Vendor: org.scala-js
+Specification-Title: Scala.js library
+Implementation-Vendor-Id: org.scala-js
+Specification-Version: 0.6.14
+Implementation-URL: http://scala-js.org/
+Implementation-Vendor: org.scala-js
+

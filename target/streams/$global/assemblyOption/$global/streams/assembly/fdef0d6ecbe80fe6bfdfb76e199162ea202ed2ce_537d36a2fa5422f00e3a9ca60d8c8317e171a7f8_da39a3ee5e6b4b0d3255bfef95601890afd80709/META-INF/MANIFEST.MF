@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Specification-Title: json4s-ast
+Specification-Version: 3.6.2
+Specification-Vendor: org.json4s
+Implementation-Title: json4s-ast
+Implementation-Version: 3.6.2
+Implementation-Vendor: org.json4s
+Implementation-Vendor-Id: org.json4s
+Implementation-URL: https://github.com/json4s/json4s
+Created-By: Simple Build Tool
+Built-By: ksera
+Build-Jdk: 10.0.1
+

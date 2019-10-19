@@ -1,0 +1,38 @@
+Checkpointing is to consitantly draw the snapshot of distributed datastream and correspoinding state.
+
+each drawn snapshot will hold a full applicaiton state till the checkpointed time.
+
+snapshot/checkpoint are light weight and doesn't impact the performance.
+
+after snapshot it can be stored into persistent storage e.g. HDFS.
+
+CHECKPOINT SAVE TWO INPORTANT THINGS:
+1.datastream
+2.operator state
+
+
+BARRIER CHECKPOINTING
+flink will take snapshot/create a checkpoint based on stream barriers.
+
+
+snapshoting can be categorised into two categories:
+1> synchronous state snapshot:
+    flink operators will stop processing new records while snapshot/checkpoint is being written.
+
+
+2> asynchronous state snapshot
+    *flink operator will continue to perform stream
+    **to perform asynchronous snapshotting flink app needs to follow these two things:
+        > use a managed state
+        > use state backend that support asynch snapshotting
+
+
+
+
+
+
+
+
+
+
+

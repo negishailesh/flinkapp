@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+flink-shaded-asm-5
+
+
+From: 'ObjectWeb' (http://www.objectweb.org/)
+  - ASM All (http://asm.objectweb.org/asm-all/) org.ow2.asm:asm-all:jar:5.0.4
+    License: BSD  (http://asm.objectweb.org/license.html)
+
+
+
+

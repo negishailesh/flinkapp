@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: flink-shaded-jackson-2
+Implementation-Version: 2.7.9-6.0
+Archiver-Version: Plexus Archiver
+Built-By: zento
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: flink-shaded-jackson-2
+Implementation-Vendor-Id: org.apache.flink
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_162
+Specification-Version: 2.7
+Implementation-URL: http://flink.apache.org/flink-shaded-jackson-paren
+ t/flink-shaded-jackson
+

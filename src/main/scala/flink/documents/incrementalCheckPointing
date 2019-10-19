@@ -1,0 +1,6 @@
+*in incremental checkpointing, we don't write the full state for evevry checkpoint for consecutive states
+we will only save the Delta(change between 2 checkpoints).
+
+** incremental checkpointing is not enabled by default, to enable it follow below:
+    RocksDBStateBackend backed = new RocksDBStatebackend(filebackend , true);
+

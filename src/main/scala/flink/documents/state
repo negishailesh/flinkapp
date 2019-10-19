@@ -1,0 +1,41 @@
+state is a snapshot of a application at any point of time which remembers information about past input/events.
+
+state can be used in following ways:
+
+> to search for certain event pattern happen so far.
+> can be used in machine learning model.
+> can be used when historic data needs to be managed.
+> can be used to achieve fault-tolerance through check pointing.A state can help in restarting the job from failure point.
+> can be used in rescaling of jobs.
+> can be used to convert stateless transformation to stateful transformation.
+
+
+statelessTransformation > in which current output is dependent on current output element and is independent of what
+                            element came so far.
+        ex: map,flatmap,filter
+
+statefulTransformation > in which current output is dependent on current input as well as previous input element.
+                            we need to accumulate the results.
+
+        ex: reduce,sum,aggregate
+
+
+
+
+TYPES OF STATE:
+*keyed state
+    state is bound to 1 operator instance ,1 state per operator instance( in cluster).
+
+**operator state
+    1 state per operator instance per key.
+
+
+
+
+
+
+
+
+
+
+

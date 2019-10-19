@@ -1,0 +1,7 @@
+state backend determines how and where a checkpointed state is stored internally.
+
+few available state backends are:
+*memory statebackend : stores the state's data internally as onject on java heap.
+**FS state backend : stores the state's data internally into specified filesystem ex: HDFS
+***RocksDB statebackend : stores in-flight data(temp data) in RocksDB database, upon checkpointing the same is written to filesystem(HDFS)
+

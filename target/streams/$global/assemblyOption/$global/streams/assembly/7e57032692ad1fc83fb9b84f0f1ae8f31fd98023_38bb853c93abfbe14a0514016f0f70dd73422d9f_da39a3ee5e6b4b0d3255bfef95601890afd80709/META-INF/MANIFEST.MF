@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.novocode
+Implementation-Title: JUnit-Interface
+Implementation-Version: 0.11
+Implementation-Vendor-Id: com.novocode
+Specification-Vendor: com.novocode
+Specification-Title: JUnit-Interface
+Implementation-URL: http://github.com/sbt/junit-interface/
+Specification-Version: 0.11
+
